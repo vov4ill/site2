@@ -1,0 +1,135 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+
+
+/* Блоки */
+
+.header {
+    background: url(image/index/top_back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top_button {
+    padding-bottom: 493px;
+}
+
+.select_games {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: url(image/index/back_select.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.game1 {
+    background: url(image/index/games/g1.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+
+.game2 {
+    background: url(image/index/games/g2.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.game3 {
+    background: url(image/index/games/g3.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+
+
+/* Заголовки и тексты  */
+
+.title  {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 217px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 32px;
+}
+
+
+
+
+/* Кнопки и формы  */
+
+.button {
+    background: #9C0332;
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 74px;
+    padding-left: 74px;
+    margin-top: 44px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.f {
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 236px;
+    padding-bottom: 32px;
+    padding-right: 262px;
+    padding-left: 32px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+@import 'animation';
+@import 'mobile';
